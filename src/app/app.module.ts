@@ -6,6 +6,7 @@ import { provideFirebaseApp, getApp, initializeApp } from '@angular/fire/app';
 import { getFirestore, provideFirestore } from '@angular/fire/firestore';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { RouterModule } from '@angular/router';
+import { getAnalytics } from "firebase/analytics";
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
