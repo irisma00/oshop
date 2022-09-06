@@ -51,7 +51,6 @@ import { AdminOrdersComponent } from './admin/admin-orders/admin-orders.componen
       { path: 'admin/orders', component: AdminOrdersComponent }
       
 
-      
     ]),
    
   ],
